@@ -8,7 +8,7 @@ const dirtyChai = require('dirty-chai')
 const expect = chai.expect
 chai.use(dirtyChai)
 const pair = require('pull-pair/duplex')
-const PeerInfo = require('peer-info')
+const PeerInfo = require('eth-peer-info')
 const lp = require('pull-length-prefixed')
 const multiaddr = require('multiaddr')
 

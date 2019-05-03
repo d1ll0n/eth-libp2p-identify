@@ -1,6 +1,6 @@
 'use strict'
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('eth-peer-info')
+const PeerId = require('eth-peer-id')
 const multiaddr = require('multiaddr')
 const pull = require('pull-stream/pull')
 const take = require('pull-stream/throughs/take')
